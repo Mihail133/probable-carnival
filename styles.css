@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -56,3 +55,100 @@ footer {
     background: #8B0000; /* Темно-красный фон для футера */
     color: #ffffff;
 }
+
+footer {
+    background-color: #333; /* Цвет фона для подвала */
+    color: white; /* Цвет текста */
+    padding: 20px; /* Внутренние отступы для подвала */
+    text-align: center; /* Центрирование текста */
+    position: relative; /* Позволяет использовать другие позиции, если нужно */
+    margin-top: 600px; /* Добавьте отступ сверху для опускания подвала ниже */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Настройка для фона изображения */
+.background-image {
+    background: url('https://cdnn21.img.ria.ru/images/07e4/05/06/1571047014_0:48:900:554_650x0_80_0_0_2f57e424be567a9fdc9663779e8cbb57.jpg') no-repeat center center;
+    background-size: cover; /* Изображение заполняет весь контейнер */
+    position: relative;
+    min-height: calc(100vh - 150px); /* Высота фона с учетом высоты заголовка и подвала */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Цвет текста поверх фона */
+    z-index: 0; /* Чтобы фон был ниже остальных элементов */
+}
+
+/* Стили для кнопок */
+.my-button {
+    background-color: #FFC107; /* Желтый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 20px 40px; /* Увеличенные отступы для более крупных кнопок */
+    border: none;
+    border-radius: 5px; /* Скругленные углы */
+    font-size: 20px; /* Увеличенный размер шрифта для кнопок */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Эффект при наведении */
+    margin: 10px; /* Отступы между кнопками */
+}
+
+.my-button:active {
+    transform: scale(0.98); /* Уменьшение кнопки при нажатии */
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333; /* Цвет фона для верхнего козырька */
+    color: white; /* Цвет текста */
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    width: 100%; /* Изображение занимает полную ширину */
+    height: auto; /* Поддерживает пропорции изображения */
+}
+
+.historical-info {
+    text-align: center; /* Центрируем текст */
+    color: white; /* Белый цвет текста для контента */
+}
+
+.my-button {
+    background-color: #FFC107; /* Желтый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 20px 40px; /* Увеличенные отступы для более крупных кнопок */
+    border: none;
+    border-radius: 5px; /* Скругленные углы */
+    font-size: 20px; /* Увеличенный размер шрифта для кнопок */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px; /* Отступы между кнопками */
+}
+
+.my-button:hover {
+    background-color: #FFA000; /* Темно-желтый цвет при наведении */
+}
+
+.my-button:active {
+    transform: scale(0.98); /* Уменьшение кнопки при нажатии */
+}
+
+footer {
+    background-color: #333; /* Цвет фона для нижнего козырька */
+    color: white; /* Цвет текста */
+    padding: 20px; /* Внутренние отступы для подвала */
+    text-align: center; /* Центрирование текста */
+    margin-top: 20px; /* Пространство между фоном и подвалом */
+}
+
